@@ -1,0 +1,23 @@
+# Ambiente da aula: PyCaret + IBM Telco Customer Churn
+# Python recomendado: 3.11.x (64-bit)
+#
+# PyCaret 3.x foi escolhido para esta aula porque usa a API didática:
+# setup(), compare_models(), create_model(), tune_model(),
+# evaluate_model(), predict_model(), save_model(), load_model().
+#
+# Não instalar PyCaret 4.x alpha para esta aula.
+
+pycaret==3.3.2
+pandas==2.1.4
+numpy==1.26.4
+scipy==1.11.4
+scikit-learn==1.4.2
+joblib==1.3.2
+
+# Notebook / VS Code
+ipykernel==6.29.5
+jupyter==1.0.0
+
+# Visualização usada durante a análise
+matplotlib==3.7.5
+seaborn==0.13.2
